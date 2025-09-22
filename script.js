@@ -5,10 +5,10 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
   // Remove old total row if already exists (avoid duplicates)
-  const oldTotal = document.querySelector(".total-row");
-  if (oldTotal) {
-    oldTotal.remove();
-  }
+  // const oldTotal = document.querySelector(".total-row");
+  // if (oldTotal) {
+  //   oldTotal.remove();
+  // }
 
   // Select all price cells
   const priceCells = document.querySelectorAll(".price");
